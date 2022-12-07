@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:gravity="center"
+    android:layout_margin="15dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@drawable/shape_for_dialog"
+    android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/newPlayerImgV"
+            android:layout_width="100dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:contentDescription="@string/player_s_photo"
+            android:focusable="true"
+            android:src="@drawable/ic_avatar"
+            tools:ignore="ImageContrastCheck"
+            app:shapeAppearance="@style/RoundCorner"
+            />
+
+        <EditText
+            android:id="@+id/newPlayerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:hint="@string/enter_new_player_s_name"
+            android:minHeight="48dp"
+            android:padding="5dp"
+            android:textColorHint="#78909C"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:importantForAutofill="no" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+                <Button
+                    android:id="@+id/okBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OK"/>
+        </LinearLayout>
+
+
+</LinearLayout>

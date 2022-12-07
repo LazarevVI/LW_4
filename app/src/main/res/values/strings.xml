@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Players</string>
+    <string name="player_s_name">Player\'s name</string>
+    <string name="player_s_photo">Player\'s photo</string>
+    <string name="enter_new_player_s_name">Enter new player\'s name</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="form_teams">Form teams</string>
+
+    <string-array name="players_names">
+        <item>Cristiano Ronaldo</item>
+        <item>Sadio Mane</item>
+        <item>Karim Benzema</item>
+        <item>Mohamed Salah</item>
+        <item>Harry Kane</item>
+        <item>Erling Haaland</item>
+        <item>Kylian Mbappe</item>
+        <item>Kevin De Bruyne</item>
+        <item>Robert Lewandowski</item>
+        <item>Lionel Messi</item>
+    </string-array>
+
+
+</resources>
